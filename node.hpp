@@ -2,10 +2,6 @@
 #define NODE_HPP
 
 
-#include <memory>
-#include <string>
-
-
 namespace test {
 
 
@@ -15,12 +11,12 @@ public:
     Node();
     ~Node();
 public:
-    int readBinaryTree(const std::string&);
-    std::shared_ptr<Node> getLayer(const unsigned int);
+    static int readBinaryTree(Node*);
+    //std::shared_ptr<Node> getLayer(const unsigned int);
 private:
-    std::shared_ptr<Node> _left;
-    std::shared_ptr<Node> _right;
-    std::shared_ptr<Node> _neighbor;
+    Node* _left;
+    Node* _right;
+    Node* _neighbor;
 }; // class Node
 
 
