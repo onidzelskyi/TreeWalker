@@ -28,6 +28,8 @@
 		FA0DF2331857AFD900DAB73C /* TreeWalker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeWalker; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0DF2361857AFD900DAB73C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA0DF2381857AFD900DAB73C /* TreeWalker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TreeWalker.1; sourceTree = "<group>"; };
+		FA0DF2451857BA1100DAB73C /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		FA0DF2461857C63C00DAB73C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,8 @@
 			children = (
 				FA0DF2361857AFD900DAB73C /* main.cpp */,
 				FA0DF2381857AFD900DAB73C /* TreeWalker.1 */,
+				FA0DF2451857BA1100DAB73C /* input.txt */,
+				FA0DF2461857C63C00DAB73C /* README.md */,
 			);
 			path = TreeWalker;
 			sourceTree = "<group>";
@@ -225,6 +229,7 @@
 				FA0DF23E1857AFD900DAB73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
