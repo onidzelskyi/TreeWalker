@@ -30,6 +30,7 @@
 		FA0DF2381857AFD900DAB73C /* TreeWalker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TreeWalker.1; sourceTree = "<group>"; };
 		FA0DF2451857BA1100DAB73C /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		FA0DF2461857C63C00DAB73C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		FA0DF2471858301F00DAB73C /* Link_nodes_at_same_level_in a_binary_tree.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Link_nodes_at_same_level_in a_binary_tree.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		FA0DF2351857AFD900DAB73C /* TreeWalker */ = {
 			isa = PBXGroup;
 			children = (
+				FA0DF2471858301F00DAB73C /* Link_nodes_at_same_level_in a_binary_tree.pdf */,
 				FA0DF2361857AFD900DAB73C /* main.cpp */,
 				FA0DF2381857AFD900DAB73C /* TreeWalker.1 */,
 				FA0DF2451857BA1100DAB73C /* input.txt */,

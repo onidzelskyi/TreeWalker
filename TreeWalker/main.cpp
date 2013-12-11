@@ -7,6 +7,7 @@
 //
 
 #include <fstream>
+#include <memory>
 #include <stack>
 
 
@@ -20,11 +21,12 @@ struct node {
 };
 
 
-std::ifstream is;
-std::stack<node*> layer_stack;
+std::shared_ptr<std::ifstream> is;
+//std::stack<node*> layer_stack;
 
 
 void linkSameLevel(struct node *t) {
+    static std::stack<node*> layer_stack;
     if(!layer_stack.empty()) {
         (layer_stack.top())->level = t;
         layer_stack.pop();
@@ -43,7 +45,7 @@ void loadTree(node* head) {
     int left = 0;
     int right = 0;
     int value = 0;
-    is >> value >> left >> right;
+    *is >> value >> left >> right;
     if(value) {
         head->n = value;
     }
@@ -60,7 +62,7 @@ void loadTree(node* head) {
 
 int main(int argc, const char * argv[])
 {
-    is.open("input.txt", std::ifstream::in);
+    is = std::make_shared<std::ifstream>("input.txt", std::ifstream::in);
     node* head = new node;
     loadTree(head);
     linkSameLevel(head);
